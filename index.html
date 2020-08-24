@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+    <title> Prova </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="scr.js"></script>
+    <style>
+        .mateus {
+            background-color: rgb(241, 225, 133);
+            border-radius: 10px;
+        }
+        .rodrigues {
+            background-color: rgb(241, 225, 133);
+            margin-top: 20px;
+            border-radius: 10px;
+            width: 66px;
+            height: 55px;
+        }
+        h2{
+            background-color: rgb(241, 225, 133);
+            margin-top: 20px;
+            border-radius: 10px;
+            color: rgb(77, 130, 201);
+        }
+        .conf{
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class=" navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="collapse navbar-collapse mateus" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="Mateus" href="MateusRodrigues.html">Principal<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    <h2> Informe os dados a baixo: </h2>
+    <br>
+      <div class="container" id="container">
+        <form>
+            <div class="rodrigues">
+                <label for="Nome">Nome</label>
+                <input type="Nome" class="input-container" id="Nome"> <div style="width: 300px;" id="msgNome"> </div>
+            </div>
+            <br>
+            <div class="rodrigues">
+                <label for="E-mail">E-mail</label>
+                <input type="E-mail" class="input-container" id="E-mail"> <div style="width: 300px;" id="msgmail"> </div>
+            </div>
+            <br>
+            <div class="rodrigues">
+                <label for="Telefone">Telefone</label>
+                <input type="Telefone" class="input-container" id="Telefone"> <div style="width: 300px;" id="msgtel"> </div>
+            </div>
+            <br>
+        </form>
+        <div class="conf">
+            <button onclick="enviardados();"> Confirmar </button>
+        </div>
+      </div>
+</body>
+</html>
